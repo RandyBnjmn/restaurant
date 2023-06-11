@@ -70,13 +70,11 @@ h5{
         color: lighten($gris-700, $i * 10%);
     }
 }
-
-@for $i from 1 through 8{
-    .bg-solid#{$i}{
-        background: lighten( $color-primario, $i *5%);
+@for $i from 1 through 8 {
+    .bg-solid#{$i} {
+      background: lighten($gris-700,  $i * (1 + $i))
     }
 }
-
 .text-primario{
     color: $color-primario;
 }

@@ -3,6 +3,7 @@
 @import "general/mixin";
 @import "general/variables";
 @import "general/generales";
+@import "general/media-query";
 
 
 @import "general/components";
@@ -14,4 +15,6 @@
 
 @import "layout/about";
 
-@import "layout/oferta"
+@import "layout/oferta";
+@import "layout/menu";
+@import "layout/footer";

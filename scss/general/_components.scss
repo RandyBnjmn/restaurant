@@ -46,9 +46,61 @@
 .btn-white{
     @extend .btn;
     @include btn($white, $color-primario);
-
+    
     &:hover{
         background: $color-primario-dark;
         color: $white;
     }
+}
+
+.btn-primary{
+    @extend .btn;
+    @include btn($color-primario, $white);
+    
+    &:hover{
+       transform: scale(1.1);
+    }
+}
+
+
+.card{
+    width: 30%;
+    height: 300px;
+    box-shadow:  0 0 10px 5px rgba($color: #000000, $alpha: 0.5);
+    margin-bottom: 30px;
+    background-size: cover!important;
+    background-position: center!important;
+    // transition: all .5s;
+    cursor: default;
+    
+    &-container{
+        @include d-flex(center, center, column nowrap);
+        width:100%;
+        height: 100%;
+        background: rgba($color: #fff, $alpha: 0.7);
+        transition: all .5s;
+        opacity: 0;
+
+
+        .card-title{
+            font-size: 40px;
+            font-weight: 400;
+            padding: 10px 0 0 0;
+            color: $gris-700;
+        }
+
+    }
+
+    &:hover &-container{
+        opacity: 1;
+    }
+}
+
+@for $i from 1 through 6 {
+ 
+    .card:nth-child(#{$i}){
+        background: url(../../img/product#{$i}.jpg);
+    }
+
+   
 }
