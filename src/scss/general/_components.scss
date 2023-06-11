@@ -99,7 +99,7 @@
 @for $i from 1 through 6 {
  
     .card:nth-child(#{$i}){
-        background: url(src/img/product#{$i}.jpg);
+        background-image: url("/src/img/product#{$i}.jpg");
     }
 
    

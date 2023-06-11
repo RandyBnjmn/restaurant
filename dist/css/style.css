@@ -303,27 +303,27 @@ h5 {
 }
 
 .card:nth-child(1) {
-  background: url(src/img/product1.jpg);
+  background-image: url("/src/img/product1.jpg");
 }
 
 .card:nth-child(2) {
-  background: url(src/img/product2.jpg);
+  background-image: url("/src/img/product2.jpg");
 }
 
 .card:nth-child(3) {
-  background: url(src/img/product3.jpg);
+  background-image: url("/src/img/product3.jpg");
 }
 
 .card:nth-child(4) {
-  background: url(src/img/product4.jpg);
+  background-image: url("/src/img/product4.jpg");
 }
 
 .card:nth-child(5) {
-  background: url(src/img/product5.jpg);
+  background-image: url("/src/img/product5.jpg");
 }
 
 .card:nth-child(6) {
-  background: url(src/img/product6.jpg);
+  background-image: url("/src/img/product6.jpg");
 }
 
 nav {
@@ -356,7 +356,7 @@ a:hover {
   flex-flow: column nowrap;
   width: 100%;
   height: 600px;
-  background: url("/src/img/image1.jpg");
+  background-image: url("/src/img/image1.jpg");
   background-size: cover;
   background-position: bottom;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
