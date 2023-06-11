@@ -303,27 +303,27 @@ h5 {
 }
 
 .card:nth-child(1) {
-  background-image: url("/src/img/product1.jpg");
+  background-image: url("src/img/product1.jpg");
 }
 
 .card:nth-child(2) {
-  background-image: url("/src/img/product2.jpg");
+  background-image: url("src/img/product2.jpg");
 }
 
 .card:nth-child(3) {
-  background-image: url("/src/img/product3.jpg");
+  background-image: url("src/img/product3.jpg");
 }
 
 .card:nth-child(4) {
-  background-image: url("/src/img/product4.jpg");
+  background-image: url("src/img/product4.jpg");
 }
 
 .card:nth-child(5) {
-  background-image: url("/src/img/product5.jpg");
+  background-image: url("src/img/product5.jpg");
 }
 
 .card:nth-child(6) {
-  background-image: url("/src/img/product6.jpg");
+  background-image: url("src/img/product6.jpg");
 }
 
 nav {
