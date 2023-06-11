@@ -1,0 +1,29 @@
+
+.overlay{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba($color: #000000, $alpha: 0.5)
+}
+
+// ICONOS
+.icons{
+    @include d-flex(space-between, center, row nowrap);
+    
+    a{
+        
+        @include d-flex(center, center, row nowrap);
+
+        background: $color-primario;
+        border-radius: 50%;
+        color: $white;
+        transition: all .5s;
+
+        &:hover{
+            background: $color-primario-dark;
+        }
+    }
+}

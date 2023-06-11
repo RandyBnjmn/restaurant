@@ -1,0 +1,28 @@
+@mixin d-flex($justify, $align, $flow){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-flow: $flow;
+}
+
+
+@mixin d-grid($column, $row, $gap){
+    display: grid;
+    grid-template-columns: $column;
+    grid-template-rows: $row;
+    gap: $gap;
+
+}
+
+@mixin btn($bg, $text){
+    color: $text;
+    background: $bd;
+}
+
+@mixin icons($container, $width, $height){
+    width: $container;
+    a{
+        height: $height;
+        width: $width;
+    }
+}
