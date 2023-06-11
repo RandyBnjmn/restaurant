@@ -27,3 +27,28 @@
         }
     }
 }
+
+// Botones
+
+.btn{
+    width: 170px;
+    height: 40px;
+    border:none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+
+    transition: all .5s;
+}
+
+.btn-white{
+    @extend .btn;
+    @include btn($white, $color-primario);
+
+    &:hover{
+        background: $color-primario-dark;
+        color: $white;
+    }
+}

@@ -212,6 +212,27 @@ h5 {
   background: #cc6200;
 }
 
+.btn, .btn-white {
+  width: 170px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn-white {
+  color: #ff7b00;
+  background: #fff;
+}
+.btn-white:hover {
+  background: #cc6200;
+  color: #fff;
+}
+
 nav {
   position: absolute;
   top: 0;
@@ -307,6 +328,7 @@ a:hover {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  text-align: center;
 }
 .oferta * {
   position: relative;

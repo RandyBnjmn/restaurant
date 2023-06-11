@@ -16,7 +16,7 @@
 
 @mixin btn($bg, $text){
     color: $text;
-    background: $bd;
+    background: $bg;
 }
 
 @mixin icons($container, $width, $height){
