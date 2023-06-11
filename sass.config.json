@@ -1,0 +1,4 @@
+{
+    "input": "src/scss/style.scss",
+    "output": "dist/css/style.css"
+}
