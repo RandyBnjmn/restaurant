@@ -3,7 +3,8 @@
     "@fortawesome/fontawesome-free": "^6.4.0"
   },
   "scripts": {
-    "build:css": "node-sass --config sass.config.json && postcss dist/css/style.css --use autoprefixer --output dist/css/style.css"
+    "build:css": "node-sass --config sass.config.json && postcss dist/css/style.css --use autoprefixer --output dist/css/style.css",
+    "sass:watch": "sass --watch src/scss/style.scss  dist/css/style.css"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
