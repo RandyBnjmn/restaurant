@@ -1,11 +1,21 @@
 
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: 'Poppins', sans-serif;
 
 }
+body::-webkit-scrollbar{
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: $color-primario;
+    border-radius: 6px;
+}
+
 
 a{
     text-decoration: none;

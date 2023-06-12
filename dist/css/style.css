@@ -6,8 +6,21 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ff7b00;
+  border-radius: 6px;
 }
 
 a {
@@ -241,6 +254,7 @@ h5 {
 }
 .icons a:hover {
   background: #cc6200;
+  color: #fff;
 }
 
 .btn, .btn-primary, .btn-white {
